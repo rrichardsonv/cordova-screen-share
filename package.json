@@ -1,0 +1,36 @@
+{
+  "name": "cordova-screen-share",
+  "version": "0.0.1",
+  "description": "Cordova Screenshare Plugin",
+  "cordova": {
+    "id": "cordova-screen-share",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrichardsonv/cordova-screen-share.git"
+  },
+  "keywords": [
+    "cordova",
+    "screenshare",
+    "screen-share",
+    "RPScreenRecorder",
+    "ReplayKit",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.8.0"
+    }
+  ],
+  "author": "Rich Richardson",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/rrichardsonv/cordova-screen-share/issues"
+  },
+  "homepage": "https://github.com/rrichardsonv/cordova-screen-share#readme"
+}

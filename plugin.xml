@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-screen-share" version="0.0.1">
+    <name>Cordova Screen Share</name>
+    <description>Cordova Screenshare Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,screenshare,screen-share,RPScreenRecorder,ReplayKit</keywords>
+    <engines>
+        <engine name="cordova-ios" version=">=3.8.0" />
+    </engines>
+    <js-module src="www/screen-share.js" name="ScreenShare">
+        <clobbers target="cordova.screenShare" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ScreenShare">
+                <param name="ios-package" value="ScreenShare"/>
+            </feature>
+        </config-file>
+	<header-file src="src/ios/screen-share-Bridging-Header.h" />
+        <source-file src="src/ios/ScreenShare.swift" />
+	<framework src="ReplayKit.framework" />
+    </platform>
+</plugin>
