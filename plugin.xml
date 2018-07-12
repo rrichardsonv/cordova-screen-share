@@ -16,8 +16,8 @@
                 <param name="ios-package" value="ScreenShare"/>
             </feature>
         </config-file>
-	<header-file src="src/ios/screen-share-Bridging-Header.h" />
-        <source-file src="src/ios/ScreenShare.swift" />
+	<header-file src="ios/screen-share-Bridging-Header.h" />
+        <source-file src="ios/ScreenShare.swift" />
 	<framework src="ReplayKit.framework" />
     </platform>
 </plugin>
